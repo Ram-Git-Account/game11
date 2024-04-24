@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/styles1.css">
+    <link rel="stylesheet" href="style_select.css">
+    <script src="js/script1.js" defer></script>
+</head>
+<body>
+    <button class="PvEmode" onclick="PvEm()">PvE mode</button>
+    <div class="vs-zone">
+        <div class="player_select">
+            <button  onclick="chooseCharacter_player('blue_samurai')" id="p1">Синий самурай</button>
+            <button  onclick="chooseCharacter_player('white_dragon')">Белый дракон</button>
+            <button  onclick="chooseCharacter_player('cowboy')">Ковбой</button>
+            <button  onclick="chooseCharacter_player('lucifer')">Дьявол</button>
+            <button  onclick="chooseCharacter_player('ogre_mage')">Огр-маг</button>
+            <button  onclick="chooseCharacter_player('ogre')">Огр</button>
+            <button  onclick="chooseCharacter_player('pirate')">Пират</button>
+            <button  onclick="chooseCharacter_player('pink_dragon')">Розовый дракон</button>
+            <button  onclick="chooseCharacter_player('zombie')">Зомби</button>
+            <button  onclick="chooseCharacter_player('haos')">Генерал Хаоса</button>
+            <div id="player_watcher"></div>
+        </div>
+        <div class="enemy_select">
+            <button  onclick="chooseCharacter_enemy('blue_samurai')">Синий самурай</button>
+            <button  onclick="chooseCharacter_enemy('white_dragon')">Белый дракон</button>
+            <button  onclick="chooseCharacter_enemy('cowboy')">Ковбой</button>
+            <button  onclick="chooseCharacter_enemy('lucifer')">Дьявол</button>
+            <button  onclick="chooseCharacter_enemy('ogre_mage')">Огр-маг</button>
+            <button  onclick="chooseCharacter_enemy('ogre')">Огр</button>
+            <button  onclick="chooseCharacter_enemy('pirate')">Пират</button>
+            <button  onclick="chooseCharacter_enemy('pink_dragon')">Розовый дракон</button>
+            <button  onclick="chooseCharacter_enemy('zombie')">Зомби</button>
+            <button  onclick="chooseCharacter_enemy('haos')">Генерал Хаоса</button>
+        </div>
+    </div>
+    
+    <div class="battle-zone">
+    <div class="port">
+        <ul>
+            <li><button onclick="allattackclick('attack')">Атака</button></li>
+            <li><button onclick="allattackclick('heal')">Лечение</button></li>
+            <li><button onclick="allattackclick('block')">Каменная кожа</button></li>
+            <li><button onclick="allattackclick('fire')">Жажда крови</button></li>
+            <li><button>Навык</button></li>
+            <li><button>Навык</button></li>
+            <li><button>Навык</button></li>
+        </ul>
+        <div class="your-port" >
+            <img src="" alt="" class="blue-port" id="blue1">
+    </div>
+    <div class="stat">
+        <div class="your-stat"></div>    
+        <div class="en-stat"></div>
+        </div>
+        <div class="enemy-port"><img src="" alt="" class="red-port"> </div>
+    </div>
+    <div class="display-move">
+        <ul>
+            <li class="player_move"></li>
+            <li class="enemy_move"></li>
+        </ul>
+    </div>
+        
+    </div>
+    
+    <div class="second-zone"></div>
+
+</body>
+</html>
