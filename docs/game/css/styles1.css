@@ -1,0 +1,93 @@
+*{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+
+}
+body{
+    max-width: 75em;
+    margin: 0;
+    padding: 0;
+}
+
+img{
+    padding: 0em;
+    display: inline-block;
+    border-style: solid;
+    max-width: 15em;
+    
+}
+
+.vs-zone{
+    display: flex;
+    justify-content: space-between;   
+}
+.vs-zone{
+    display: none;
+}
+button{
+    min-height: 3em;
+}
+.player_select>button:hover{
+    background-color: rgb(102, 95, 168);
+}
+.player_select>button:active{
+    background-color: blue;
+    color: red;
+}
+.enemy_select>button:hover{
+    background-color: rgb(168, 95, 95);
+}
+.enemy_select>button:active{
+    background-color: red;
+    color: blue;
+}
+.port{
+    display: inline-flex;
+    justify-content: space-between;
+}
+.stat{
+    display: flex;
+    min-width: 20em;
+
+}
+.en-stat{
+    padding: 1em;
+    border-style: solid;
+    border-color: red;
+}
+.enemy_move{
+    color: red;
+}
+
+.player_move{
+    color: blue;
+}
+.your-stat{
+    padding: 1em;
+    border-style: solid;
+    border-color: blue;
+}
+.display-move{
+    padding: 1.5em;
+    border-style: solid;
+    border-color: green;
+}
+.enemy-port{
+    display: inline;
+}
+.enemy-port>img{
+    border-style: solid;
+    border-color: red;
+}
+.blue-port{
+    border-style: solid;
+    border-color: blue;
+}
+button{
+    display: inline-block;
+    min-width: 20em;
+}
+.battle-zone {
+    display: none; /* Изначально скрываем элемент */
+}
